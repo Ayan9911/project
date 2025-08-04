@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.service.car_spark.proto";
+option java_outer_classname = "UserDataProto";
+
+message UserData {
+  string name = 1;
+  string dob = 2;
+  double salary = 3;
+  int32 age = 4;
+  string file_type = 5;
+}
